@@ -156,19 +156,18 @@ img.author {
   font-family: "Concert One", sans-serif;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 30px;
+  letter-spacing: 25px;
   color: black;
   text-decoration: underline;
 }
 .author-job {
-  font-size: 25px;
-  letter-spacing: 15px;
+  font-size: 22px;
+  letter-spacing: 6px;
   text-align: center;
-  margin: 0px;
   position: unset;
-  top: 120%;
+
   color: black;
-   right: 5.5%; 
+   
 }
  img.author {
   padding: 0px;
