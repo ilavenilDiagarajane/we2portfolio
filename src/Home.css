@@ -1,0 +1,198 @@
+.home-container{
+    color:white;
+    text-align: center;
+    background-color: black;
+
+}
+.company-name{
+    font-size: 50px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    padding-top: 30px;
+}
+img.logo {
+    width: 75px;
+}
+.topic-name{
+    font-size: 100px;
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    letter-spacing: 30px;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    animation: shine 3s infinite linear;
+}
+
+.content-first
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+/* .camera{
+    width:100%;
+} */
+.svg {
+    font-family: 'Russo One', sans-serif;
+    font-size: 100px;
+  }
+  svg text {
+    text-transform: uppercase;
+    animation: stroke 5s infinite alternate;
+    stroke-width: 2;
+    stroke:rgb(255, 255, 255);
+    font-size: 300px;
+    letter-spacing: 30px;
+  }
+  
+  @keyframes stroke {
+    0%   {
+      fill: rgba(72,138,20,0); stroke: rgb(255, 255, 255);
+      stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+    }
+    70%  {fill: rgba(72,138,20,0); stroke: rgb(255, 255, 255); }
+    80%  {fill: rgba(72,138,20,0); stroke: rgb(255, 255, 255); stroke-width: 3; }
+    100% {
+      fill: rgb(255, 255, 255); stroke: rgba(54,95,160,0); 
+      stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+    }
+  }
+  .author-name{
+    text-align: center;
+    font-size: 150px;
+    font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 30px;
+  color: black;
+  text-decoration: underline;
+  }
+         
+  .author-job{
+    font-size: 30px;
+    letter-spacing: 40px;
+    text-align: center;
+    margin: 0px;
+    position: absolute;
+    top: 87%;
+    color: black;
+    right:33.5%;
+  
+  }
+  .home-data{
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .home-data2{
+    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+.home-para1{
+  font-size: 22px;
+
+  position: absolute;
+  left: 42%;
+  top:65%;
+ 
+  width: 27%;
+}
+.home-para2{
+  font-size: 22px;
+  
+  position: absolute;
+  left: 10%;
+  top:100%;
+  
+  width: 30%;
+  
+}
+
+.home-para3{
+  font-size: 22px;
+
+  position: absolute;
+  left: 42%;
+  top:110%;
+  
+  width: 29%;
+}
+img.author {
+  padding: 20px;
+}
+  @media only screen and (max-width: 600px) {
+    .camera{
+        width:100%;
+    }
+    .content-first
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+ 
+}
+.home-data {
+   height: 30vh; 
+  display: flex;
+
+  align-items: center;
+  padding: 45px;
+}
+.author-name {
+  text-align: center;
+  font-size: 70px;
+  font-family: "Concert One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 30px;
+  color: black;
+  text-decoration: underline;
+}
+.author-job {
+  font-size: 25px;
+  letter-spacing: 15px;
+  text-align: center;
+  margin: 0px;
+  position: unset;
+  top: 120%;
+  color: black;
+   right: 5.5%; 
+}
+ img.author {
+  padding: 0px;
+  width: 100%;
+}
+.home-para1 {
+  font-size: 22px;
+  padding: 10px 0px;
+  position: unset;
+  width: 100%;
+
+}
+.home-para2 {
+  font-size: 22px;
+  padding: 10px 0px;
+  position: unset;
+  width: 100%;
+}
+.home-para3 {
+  font-size: 22px;
+  padding: 10px 0px;
+  position: unset;
+    width: 100%;
+ 
+} 
+
+  }
